@@ -12,20 +12,22 @@
 }
 
 body {
-  background-color: var(--color-body);
+  /*background-color: var(--color-body);*/
+
 }
 
 .page-header {
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
+  background-color: var(--color-body);
   align-items: center;
 }
 .logo {
   font-family: Revalia, Arial, Helvetica, sans-serif;
   font-size: 48px;
   color: var(--color-main);
-  margin-left: 70px;
+  margin-left: 200px;
 }
 
 .page-header > * {
@@ -38,14 +40,24 @@ body {
 
   font-family: var(--family-main-text);
   font-size: 16px;
-  margin-right: 120px;
+  margin-right: 420px;
   margin-top: 25px;
   padding-right: 10px;
 }
 
+.main{
+  background-color: var(--color-body);
+}
+
 .menu {
   display: inline-block;
+
+
 }
+
+
+
+
 
 .link {
   text-decoration: none;
@@ -90,3 +102,48 @@ body {
   color: var(--color-white);
   text-decoration: none;
 }
+
+
+
+
+
+.container-content{
+  background-color: #F9F9F9;
+  width: 100%;
+
+
+ 
+}
+
+
+
+.row-content{
+  background-color:var(--color-white);
+  
+
+
+}
+
+.title-main-footer{
+  font-family: var(--family-main-text);
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 110px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.text-main-footer{
+  font-family: var(--family-main-text);
+  font-size: 16px;
+  line-height: 25px;
+  justify-content: center;
+align-items: center;
+text-align: center;
+
+
+  
+
+}
+
+
