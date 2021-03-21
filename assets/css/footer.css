@@ -1,0 +1,26 @@
+.footer-section{
+  background-color: var(--color-main);
+}
+
+.footer-text{
+  color: var(--color-white);
+
+}
+
+#h3{
+  padding: 20px 0;
+  font-family: var(--family-main-text);
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#p{
+  padding-bottom:50px;
+  font-family: var(--family-main-text);
+  font-size: 13px;
+}
+
+.facebook{
+  padding-top: 40px;
+  width: 7%;
+}

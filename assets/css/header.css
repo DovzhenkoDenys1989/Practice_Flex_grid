@@ -1,0 +1,42 @@
+.head-cont {
+  background-color: var(--color-hex);
+}
+
+.logo {
+  font-family: Revalia, Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  color: var(--color-main);
+  margin-top: 30px;
+}
+
+.navigation {
+  text-align: center;
+  font-family: var(--family-main-text);
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.main-section {
+  background-color: var(--color-hex);
+}
+
+.menu {
+  display: inline-block;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.link-first {
+  color: var(--color-main);
+}
+
+.link-margin {
+  margin-left: 30px;
+}
+
+/*----introduction---*/
+

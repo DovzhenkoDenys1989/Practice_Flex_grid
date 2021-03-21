@@ -1,0 +1,24 @@
+.projects {
+  background-color: var(--color-main);
+}
+
+.image-projects {
+  padding: 40px 10px;
+  margin-right: 5px;
+  
+}
+
+.text-count {
+  margin-top: 40px;
+  font-size: 21px;
+  font-family: var(--family-main-text);
+  color: var(--color-white);
+
+}
+
+.projects {
+  font-size: 16px;
+  color: var(--color-white);
+  padding-top: 8px;
+ 
+}

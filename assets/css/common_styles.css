@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  --family-main-text: Roboto, Arial, Helvetica, sans-serif;
+  --color-white: white;
+  --color-body: #e5e5e5;
+  --color-hex: #eeeff1;
+  --color-main: #34547a;
+  --color-black: black;
+  --color-green:green;
+  --color-red:red;
+  --color-darkblue:darkblue;
+  --color-gray:gray;
+  --color-crimson:crimson;
+}
+
+.title-main-footer {
+  font-family: var(--family-main-text);
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 110px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.text-main-footer {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 100px;
+  font-family: var(--family-main-text);
+  font-size: 16px;
+  line-height: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-align{
+  text-align: center; 
+}

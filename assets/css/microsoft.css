@@ -1,0 +1,10 @@
+.microsoft-wrapper{
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.microsoft-icon{
+ block-size: 70%;
+padding: 0;
+}
