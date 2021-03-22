@@ -6,11 +6,11 @@
   --color-hex: #eeeff1;
   --color-main: #34547a;
   --color-black: black;
-  --color-green:green;
-  --color-red:red;
-  --color-darkblue:darkblue;
-  --color-gray:gray;
-  --color-crimson:crimson;
+  --color-green: green;
+  --color-red: red;
+  --color-darkblue: darkblue;
+  --color-gray: gray;
+  --color-crimson: crimson;
 }
 
 .title-main-footer {
@@ -35,6 +35,6 @@
   margin: 0 auto;
 }
 
-.text-align{
-  text-align: center; 
+.text-align {
+  text-align: center;
 }

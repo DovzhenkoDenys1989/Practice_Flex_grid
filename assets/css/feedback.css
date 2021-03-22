@@ -1,50 +1,41 @@
-.feedback{
+.feedback {
   background-color: var(--color-hex);
   width: 100%;
-
-
 }
 
-.account-wrapper{
-
+.account-wrapper {
+  width: 100%;
   margin-top: 30px;
-  margin-left: 27%;
   border: none;
-
 }
-.account-name1{
+.account-name1 {
   padding: 10px 15px;
   font-size: 14px;
   font-family: var(--family-main-text);
-  width: 30.5%;
-  
+  width: 25%;
 }
 
-.account-name2{
+.account-name2 {
   padding: 10px 15px;
   font-size: 14px;
   font-family: var(--family-main-text);
-  width: 30.5%;
-  
+  width: 25%;
 }
 
-.message-wrapper{
+.message-wrapper {
   border: none;
   display: flex;
   margin: 0 auto;
   padding-top: 15px;
-  width: 46%;
-
+  width: 51.5%;
 }
 
-.message{
+.message {
   padding: 10px 15px;
   font-size: 14px;
   font-family: var(--family-main-text);
-
+  width: 100%;
 }
-
-
 
 .button-message {
   padding: 15px 20px;
@@ -54,21 +45,41 @@
   border: 1px solid var(--color-black);
   color: var(--color-white);
   margin-bottom: 80px;
- 
 }
 
 .but-link-message {
   text-decoration: none;
 }
 
-.button-message:hover{
+.button-message:hover {
   background-color: var(--color-green);
   border: 2px solid var(--color-red);
-  color:var(--color-black);
+  color: var(--color-black);
 }
 
-.button-message:active{
-  background-color:var(--color-red);
-  border:2px solid var(--color-green);
+.button-message:active {
+  background-color: var(--color-red);
+  border: 2px solid var(--color-green);
   color: var(--color-darkblue);
+}
+
+@media screen and (max-width: 480px) {
+  .account-wrapper > .account-name1 + .account-name2 {
+    margin-top: 10px;
+  }
+  .account-name1,
+  .account-name2 {
+    width: 100%;
+    text-align: center;
+    border: none;
+  }
+
+  .message-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .message {
+    border: none;
+  }
 }
